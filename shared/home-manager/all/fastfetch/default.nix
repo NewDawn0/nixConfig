@@ -49,8 +49,6 @@ in {
       };
     };
   };
-  xdg.configFile."fastfetch/logos/ibm.txt" = { source = ./fastfetch/ibm.txt; };
-  xdg.configFile."fastfetch/logos/megamind.txt" = {
-    source = ./fastfetch/megamind.txt;
-  };
+  xdg.configFile."fastfetch/logos/ibm.txt" = { source = ./ibm.txt; };
+  xdg.configFile."fastfetch/logos/megamind.txt" = { source = ./megamind.txt; };
 }

@@ -6,6 +6,7 @@
     userName = "NewDawn0";
     userEmail = "newdawn.v0.0+git@gmail.com";
     aliases = {
+      untag = ''!sh -c 'git tag -d "$1" && git push origin -d $1' -'';
       br = "branch";
       ch = "checkout";
       cm = "commit -m";

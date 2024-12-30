@@ -41,8 +41,7 @@
     };
     # @NOTE: Font needs to be installed in `shared/all/fonts.nix``
     fonts = let
-      package =
-        pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "FiraCode" ]; };
+      package = pkgs.nerd-fonts.jetbrains-mono;
       name = "JetBrainsMono Nerd Font";
     in {
       monospace = { inherit package name; };

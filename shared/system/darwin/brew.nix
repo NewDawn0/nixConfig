@@ -14,6 +14,7 @@
       "appcleaner"
       "balenaetcher"
       "firefox"
+      "ghostty"
       "github"
       "iina"
       "languagetool"

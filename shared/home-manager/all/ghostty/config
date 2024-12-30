@@ -1,0 +1,36 @@
+# General
+scrollback-limit = 10_000
+window-theme = ghostty
+clipboard-read = allow
+clipboard-paste-protection = false
+window-decoration = false
+font-family = JetBrains Mono
+font-size = 12
+theme = everblush
+
+# MacOS opts
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+window-save-state = always
+window-vsync = true
+window-colorspace = display-p3
+quick-terminal-screen = macos-menu-bar
+
+# Transparency
+background-opacity = 0.9
+background-blur-radius = 20
+
+# Keybinds
+keybind = global:super+o=toggle_quick_terminal
+keybind = super+n=new_window
+keybind = global:super+t=new_window
+
+# MacOS option fix
+keybind = option+n=text:~
+keybind = option+3=text:#
+keybind = option+4=text:Ç
+keybind = option+5=text:[
+keybind = option+6=text:]
+keybind = option+7=text:|
+keybind = option+8=text:{
+keybind = option+9=text:}

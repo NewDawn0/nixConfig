@@ -10,7 +10,7 @@
       follow-space-thrown-windows = true;
 
       # Layouts
-      layouts = [ "tall-right" "fullscreen" "floating" ];
+      layouts = [ "tall" "tall-right" "fullscreen" "floating" ];
 
       # Key - Mods
       mod1 = [ "control" "command" ];

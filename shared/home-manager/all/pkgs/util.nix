@@ -7,5 +7,6 @@
     onefetch
     qemu
     sqlite-utils
+    license-cli
   ];
 }

@@ -25,6 +25,7 @@
       "obs"
       "qflipper"
       "raycast"
+      "spotify"
       "whatsapp"
     ];
     masApps = {

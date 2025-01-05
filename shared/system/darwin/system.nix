@@ -14,7 +14,7 @@
         magnification = false;
         orientation = "left";
         persistent-apps = [
-          "${userInfo.userHome}/Documents/automations/Alacritty.app"
+          "/Applications/Ghostty.app"
           "/Applications/Firefox.app"
           "${pkgs.obsidian}/Applications/Obsidian.app"
           "/System/Applications/Calendar.app"

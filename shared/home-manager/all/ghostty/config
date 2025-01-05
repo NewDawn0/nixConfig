@@ -34,3 +34,5 @@ keybind = option+6=text:]
 keybind = option+7=text:|
 keybind = option+8=text:{
 keybind = option+9=text:}
+keybind = option+shift+7=text:\\
+keybind = option+g=text:@

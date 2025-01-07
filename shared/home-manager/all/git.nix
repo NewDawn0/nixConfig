@@ -24,18 +24,19 @@
       ".idea"
       "*.swp"
       # Lang
-      "node_modules"
+      "node_modules/"
       "npm-debug.log"
       "__pycache__"
       ".ipynb_checkpoints"
       "pytest_cache"
       ".mypy_cache"
       ".egg-info"
+      ".ccls_cache/"
       "*.pyc"
       ".dSYM"
       ".o"
-      "result"
-      "target"
+      "result/"
+      "target/"
     ];
     extraConfig = {
       init.defaultBranch = "main";

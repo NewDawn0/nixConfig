@@ -31,7 +31,7 @@
       "pytest_cache"
       ".mypy_cache"
       ".egg-info"
-      ".ccls_cache/"
+      ".ccls-cache/"
       "*.pyc"
       ".dSYM"
       ".o"

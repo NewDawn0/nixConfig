@@ -34,6 +34,8 @@
       function up() {
         eval $(up-core "$@")
       }
+      # Pac startup
+      pac
     '';
   };
 }

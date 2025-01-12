@@ -242,10 +242,28 @@
         "type": "github"
       }
     },
+    "macApps": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1717830575,
+        "narHash": "sha256-oSSCAflVpEUyRDhVdeK6va/1ZFd0+3fcZBZ6pynHLUY=",
+        "owner": "NewDawn0",
+        "repo": "macAppsArchive",
+        "rev": "e376a45870d1e87064975ff32bd7ed6ca540bd01",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NewDawn0",
+        "repo": "macAppsArchive",
+        "type": "github"
+      }
+    },
     "ndnvim": {
       "inputs": {
         "nix-systems": "nix-systems",
-        "nixpkgs": "nixpkgs",
+        "nixpkgs": "nixpkgs_2",
         "nixpkgs-unstable": "nixpkgs-unstable",
         "treesitter-pinned": "treesitter-pinned"
       },
@@ -285,7 +303,7 @@
     },
     "nix-darwin_2": {
       "inputs": {
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_4"
       },
       "locked": {
         "lastModified": 1716329735,
@@ -305,7 +323,7 @@
       "inputs": {
         "brew-src": "brew-src",
         "nix-darwin": "nix-darwin_2",
-        "nixpkgs": "nixpkgs_4"
+        "nixpkgs": "nixpkgs_5"
       },
       "locked": {
         "lastModified": 1736041957,
@@ -353,11 +371,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1731975645,
-        "narHash": "sha256-oICuoDypU9lL+f6Cg/QJ4q1CyCCE566Dx8ihnVvto8o=",
+        "lastModified": 1713995654,
+        "narHash": "sha256-S+4C0H9w7H9tSv1RviD/otsTmf1ECuxJMJ/j1t9gjPE=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "b0d941edb4ceb521b310a08645de08b4c95142f0",
+        "rev": "ce6da85c2dc9e659bef799c2ed053771e1bb8ee3",
         "type": "github"
       },
       "original": {
@@ -415,6 +433,21 @@
     },
     "nixpkgs_3": {
       "locked": {
+        "lastModified": 1731975645,
+        "narHash": "sha256-oICuoDypU9lL+f6Cg/QJ4q1CyCCE566Dx8ihnVvto8o=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "b0d941edb4ceb521b310a08645de08b4c95142f0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
         "lastModified": 1687274257,
         "narHash": "sha256-TutzPriQcZ8FghDhEolnHcYU2oHIG5XWF+/SUBNnAOE=",
         "path": "/nix/store/22qgs3skscd9bmrxv9xv4q5d4wwm5ppx-source",
@@ -426,7 +459,7 @@
         "type": "indirect"
       }
     },
-    "nixpkgs_4": {
+    "nixpkgs_5": {
       "locked": {
         "lastModified": 1716330097,
         "narHash": "sha256-8BO3B7e3BiyIDsaKA0tY8O88rClYRTjvAp66y+VBUeU=",
@@ -442,7 +475,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_5": {
+    "nixpkgs_6": {
       "locked": {
         "lastModified": 1736464216,
         "narHash": "sha256-Xjd6ghbNZvpuyYLdsBwXu57zOB3YrehHJYyyQLkVqks=",
@@ -457,15 +490,50 @@
         "type": "github"
       }
     },
+    "nixpkgs_7": {
+      "locked": {
+        "lastModified": 1732470496,
+        "narHash": "sha256-/0eevlsmdShzeoQAC38LLoaMN1KyrGP0mPzr5PId09A=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "924dd674814aaf618e329dd252e07f9a083c5f20",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pac": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_7"
+      },
+      "locked": {
+        "lastModified": 1736539621,
+        "narHash": "sha256-H7/eFRi3ilkFtXU+xgPn//5tLzxdcDp/q7GsmHgGtVo=",
+        "owner": "NewDawn0",
+        "repo": "pac",
+        "rev": "b34f615b2034c5dd93d6d5d11b7d26b996e4f4e0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NewDawn0",
+        "repo": "pac",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
+        "macApps": "macApps",
         "ndnvim": "ndnvim",
         "nix-darwin": "nix-darwin",
         "nix-homebrew": "nix-homebrew",
         "nix-systems": "nix-systems_2",
-        "nixpkgs": "nixpkgs_5",
+        "nixpkgs": "nixpkgs_6",
         "nixpkgs-unstable": "nixpkgs-unstable_2",
+        "pac": "pac",
         "stylix": "stylix"
       }
     },
@@ -593,7 +661,7 @@
           "ndnvim",
           "nix-systems"
         ],
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1732558869,

@@ -6,6 +6,8 @@
     nix-systems.url = "github:nix-systems/default";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
     ndnvim.url = "github:NewDawn0/ND-Nvim";
+    macApps.url = "github:NewDawn0/macAppsArchive";
+    pac.url = "github:NewDawn0/pac";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

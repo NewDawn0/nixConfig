@@ -8,7 +8,7 @@
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
     nix-systems.url = "github:nix-systems/default";
     # Pkgs
-    helix.url = "github:NewDawn0/helix";
+    helix.url = "github:NewDawn0/hxConfig";
     macApps.url = "github:NewDawn0/macAppsArchive";
     ndnvim.url = "github:NewDawn0/ND-Nvim";
     pac.url = "github:NewDawn0/pac";

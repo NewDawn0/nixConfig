@@ -228,11 +228,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1736983794,
-        "narHash": "sha256-cObNyhkgPeI/A1bsRmdKwUnbJ7ewRnYrMHLaxkudM5U=",
+        "lastModified": 1736983862,
+        "narHash": "sha256-uhengd7sRa32WwYxiUKYVkpASXxB4W9Z176oOslRJoU=",
         "owner": "NewDawn0",
         "repo": "hxConfig",
-        "rev": "80febe3c31f009fcdbcee5fcea66614fccab66a6",
+        "rev": "7d9951e592624e45a2fe94b510d77cf61fec3532",
         "type": "github"
       },
       "original": {

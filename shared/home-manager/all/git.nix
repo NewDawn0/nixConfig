@@ -35,7 +35,7 @@
       "*.pyc"
       ".dSYM"
       ".o"
-      "result/"
+      "result"
       "target/"
     ];
     extraConfig = {

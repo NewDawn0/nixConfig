@@ -1,13 +1,18 @@
 {
   description = "NewDawn0's system flake";
   inputs = {
+    # Nix
     nixpkgs.url = "github:nixos/nixpkgs";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
-    nix-systems.url = "github:nix-systems/default";
+    # Utils
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
-    ndnvim.url = "github:NewDawn0/ND-Nvim";
+    nix-systems.url = "github:nix-systems/default";
+    # Pkgs
+    helix.url = "github:NewDawn0/helix";
     macApps.url = "github:NewDawn0/macAppsArchive";
+    ndnvim.url = "github:NewDawn0/ND-Nvim";
     pac.url = "github:NewDawn0/pac";
+    # Other
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

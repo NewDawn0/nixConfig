@@ -26,13 +26,13 @@ keybind = super+n=new_window
 keybind = global:super+t=new_window
 
 # MacOS option fix
-keybind = option+n=text:~
-keybind = option+3=text:#
-keybind = option+4=text:Ç
-keybind = option+5=text:[
-keybind = option+6=text:]
-keybind = option+7=text:|
-keybind = option+8=text:{
-keybind = option+9=text:}
-keybind = option+shift+7=text:\\
-keybind = option+g=text:@
+keybind = alt+n=text:~
+keybind = alt+3=text:#
+keybind = alt+4=text:Ç
+keybind = alt+5=text:[
+keybind = alt+6=text:]
+keybind = alt+7=text:|
+keybind = alt+8=text:{
+keybind = alt+9=text:}
+keybind = ctrl+7=text:\\
+keybind = alt+g=text:@

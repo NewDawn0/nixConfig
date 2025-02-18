@@ -6,8 +6,8 @@
     overlays = overlays;
   };
   # Nix settings
-  services.nix-daemon.enable = true;
   nix = {
+    enable = true;
     optimise.automatic = true;
     settings = {
       experimental-features = "nix-command flakes pipe-operators";
@@ -22,7 +22,6 @@
     gc = {
       automatic = true;
       options = "--delete-older-than 7d";
-      user = "root";
       interval = {
         Hour = 2;
         Minute = 0;

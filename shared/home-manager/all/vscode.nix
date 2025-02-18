@@ -27,7 +27,7 @@
       redhat.vscode-xml
       redhat.vscode-yaml
       ritwickdey.liveserver
-      rust-lang.rust-analyzer
+      # rust-lang.rust-analyzer
       sumneko.lua
       tiehuis.zig
       timonwong.shellcheck

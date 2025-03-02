@@ -1,12 +1,13 @@
 # General
-scrollback-limit = 10_000
-window-theme = ghostty
-clipboard-read = allow
 clipboard-paste-protection = false
-window-decoration = false
+clipboard-read = allow
 font-family = JetBrains Mono
 font-size = 12
+scrollback-limit = 10_000
+shell-integration-features = no-sudo
 theme = everblush
+window-decoration = false
+window-theme = ghostty
 
 # MacOS opts
 macos-titlebar-style = tabs

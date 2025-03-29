@@ -12,7 +12,7 @@
     };
     # Pkgs
     frosted-flakes = {
-      url = "github:NewDawn0/frosted-flakes";
+      url = "github:NewDawn0/frostedFlakes";
       inputs.utils.follows = "utils";
     };
     # Other

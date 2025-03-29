@@ -4,14 +4,17 @@
     # Nix
     nixpkgs.url = "github:nixos/nixpkgs";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
-    # Utils
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
     nix-systems.url = "github:nix-systems/default";
+    utils = {
+      url = "github:NewDawn0/nixUtils";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     # Pkgs
-    helix.url = "github:NewDawn0/hxConfig";
-    macApps.url = "github:NewDawn0/macAppsArchive";
-    ndnvim.url = "github:NewDawn0/ND-Nvim";
-    pac.url = "github:NewDawn0/pac";
+    frosted-flakes = {
+      url = "github:NewDawn0/frosted-flakes";
+      inputs.utils.follows = "utils";
+    };
     # Other
     home-manager = {
       url = "github:nix-community/home-manager";
